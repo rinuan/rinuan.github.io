@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[手札]]></title>
+  <subtitle><![CDATA[雜食記錄]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2014-06-27T03:20:33.527Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name><![CDATA[Rinuan]]></name>
+    
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[hexo 及 Markdwon 參考網址]]></title>
+    <link href="http://yoursite.com/2014/06/26/hexo-%E5%8F%83%E8%80%83%E7%B6%B2%E5%9D%80/"/>
+    <id>http://yoursite.com/2014/06/26/hexo-參考網址/</id>
+    <published>2014-06-26T08:02:58.000Z</published>
+    <updated>2014-06-26T08:17:35.000Z</updated>
+    <content type="html"><![CDATA[<p>hexo 介紹<br><a href="http://kywk.github.io/moco/project/hexi/hexo_introduction.html" target="_blank" rel="external">http://kywk.github.io/moco/project/hexi/hexo_introduction.html</a></p>
+<p><a href="http://zipperary.com/categories/hexo/" target="_blank" rel="external">http://zipperary.com/categories/hexo/</a></p>
+<p><a href="http://ibruce.info/2013/11/22/hexo-your-blog/" target="_blank" rel="external">http://ibruce.info/2013/11/22/hexo-your-blog/</a></p>
+<hr>
+<p>Markdown </p>
+<p>線上編輯器<br><a href="https://www.zybuluo.com/mdeditor" target="_blank" rel="external">https://www.zybuluo.com/mdeditor</a></p>
+]]></content>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hexo 安裝除錯]]></title>
+    <link href="http://yoursite.com/2014/06/26/my-new-post/"/>
+    <id>http://yoursite.com/2014/06/26/my-new-post/</id>
+    <published>2014-06-26T07:00:43.000Z</published>
+    <updated>2014-06-26T08:04:22.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="$_npm_install_hexo_-g_安裝之錯誤訊息">$ npm install hexo -g 安裝之錯誤訊息</h2>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+</pre></td><td class="code"><pre><span class="built_in">npm</span> ERR! error rolling back <span class="attribute">Error</span>: EACCES, unlink <span class="string">'/usr/local/lib/node_modules/hexo'</span>
+<span class="built_in">npm</span> ERR! error rolling back  hexo@<span class="number">2.7</span><span class="number">.1</span> { [<span class="attribute">Error</span>: EACCES, unlink <span class="string">'/usr/local/lib/node_modules/hexo'</span>]
+<span class="built_in">npm</span> ERR! error rolling back   <span class="attribute">errno</span>: <span class="number">3</span>,
+<span class="built_in">npm</span> ERR! error rolling back   <span class="attribute">code</span>: <span class="string">'EACCES'</span>,
+<span class="built_in">npm</span> ERR! error rolling back   <span class="attribute">path</span>: <span class="string">'/usr/local/lib/node_modules/hexo'</span> }
+<span class="built_in">npm</span> ERR! <span class="attribute">Error</span>: EACCES, unlink <span class="string">'/usr/local/lib/node_modules/hexo'</span>
+<span class="built_in">npm</span> ERR!  { [<span class="attribute">Error</span>: EACCES, unlink <span class="string">'/usr/local/lib/node_modules/hexo'</span>]
+<span class="built_in">npm</span> ERR!   <span class="attribute">errno</span>: <span class="number">3</span>,
+<span class="built_in">npm</span> ERR!   <span class="attribute">code</span>: <span class="string">'EACCES'</span>,
+<span class="built_in">npm</span> ERR!   <span class="attribute">path</span>: <span class="string">'/usr/local/lib/node_modules/hexo'</span> }
+<span class="built_in">npm</span> ERR!
+<span class="built_in">npm</span> ERR! Please <span class="keyword">try</span> running <span class="keyword">this</span> command again as root/Administrator.
+
+<span class="built_in">npm</span> ERR! System Darwin <span class="number">13.2</span><span class="number">.0</span>
+<span class="built_in">npm</span> ERR! command <span class="string">"node"</span> <span class="string">"/usr/local/bin/npm"</span> <span class="string">"install"</span> <span class="string">"hexo"</span> <span class="string">"-g"</span>
+<span class="built_in">npm</span> ERR! cwd <span class="regexp">/Users/</span>***
+<span class="built_in">npm</span> ERR! node -v v0<span class="number">.10</span><span class="number">.29</span>
+<span class="built_in">npm</span> ERR! <span class="built_in">npm</span> -v <span class="number">1.4</span><span class="number">.14</span>
+<span class="built_in">npm</span> ERR! path /usr/local/lib/node_modules/hexo
+<span class="built_in">npm</span> ERR! code EACCES
+<span class="built_in">npm</span> ERR! errno <span class="number">3</span>
+<span class="built_in">npm</span> ERR! stack <span class="attribute">Error</span>: EACCES, unlink <span class="string">'/usr/local/lib/node_modules/hexo'</span>
+<span class="built_in">npm</span> ERR!
+<span class="built_in">npm</span> ERR! Additional logging details can be found <span class="attribute">in</span>:
+<span class="built_in">npm</span> ERR!     <span class="regexp">/Users/</span>***/<span class="built_in">npm</span>-debug.log
+<span class="built_in">npm</span> ERR! <span class="keyword">not</span> ok code <span class="number">0</span>
+</pre></td></tr></table></figure>
+
+<h2 id="解決方式：">解決方式：</h2>
+<p>改用    <code>$ sudo npm install hexo -g</code> 安裝</p>
+<hr>
+<h1 id="$_hexo_generate_錯誤訊息">$ hexo generate 錯誤訊息</h1>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+</pre></td><td class="code"><pre><span class="attr_selector">[error]</span> <span class="rules">{ <span class="rule"><span class="attribute">rawMessage</span>:<span class="value"> <span class="string">'Unable to parse.'</span>,
+  parsedLine: <span class="number">90</span>,
+  snippet: <span class="string">'type:github'</span>,
+  parsedFile: null,
+  message: <span class="string">'Config file load failed'</span>,
+  name: <span class="string">'HexoError'</span>,
+  stack: undefined </span></span></span>}
+ <span class="tag">MacBook-Air</span><span class="pseudo">:hexo</span> ***$ <span class="tag">hexo</span> <span class="tag">deploy</span>
+<span class="attr_selector">[error]</span> <span class="rules">{ <span class="rule"><span class="attribute">rawMessage</span>:<span class="value"> <span class="string">'Unable to parse.'</span>,
+  parsedLine: <span class="number">90</span>,
+  snippet: <span class="string">'type:github'</span>,
+  parsedFile: null,
+  message: <span class="string">'Config file load failed'</span>,
+  name: <span class="string">'HexoError'</span>,
+  stack: undefined </span></span></span>}
+</pre></td></tr></table></figure>
+
+<h2 id="解決方式：-1">解決方式：</h2>
+<p>檢查    <code>_config.yml</code>  的格式是否有誤，<strong>冒號後必須加上空格</strong></p>
+<h1 id="參考資料">參考資料</h1>
+<p><a href="http://blog.csdn.net/canglangwenyue/article/details/24558655" target="_blank" rel="external">http://blog.csdn.net/canglangwenyue/article/details/24558655</a><br><a href="http://zipperary.com/2013/05/28/hexo-guide-2/" target="_blank" rel="external">http://zipperary.com/2013/05/28/hexo-guide-2/</a></p>
+]]></content>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+  </entry>
+  
+</feed>
